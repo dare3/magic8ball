@@ -1,0 +1,34 @@
+/* Container for centering the EightBall component */
+.eightball-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  /* Style for the EightBall ball */
+  .eightball-ball {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  /* Style for the Reset button */
+  .eightball-reset-button {
+    margin-top: 20px;
+  }
+  
+  /* Style for the color counts display */
+  .eightball-color-counts {
+    margin-top: 20px;
+  }
+  
